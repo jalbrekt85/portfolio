@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.2.0",
+    "@radix-ui/react-hover-card": "0.0.3",
+    "@react-icons/all-files": "^4.1.0",
+    "@tailwindcss/typography": "^0.4.0",
+    "clsx": "^1.1.1",
+    "comma-number": "^2.0.1",
+    "date-fns": "^2.19.0",
+    "gray-matter": "^4.0.2",
+    "next": "10.0.5",
+    "next-themes": "0.0.12",
+    "qss": "^2.0.3",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-rough-notation": "^1.0.1",
+    "react-toastify": "^7.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "globby": "11.0.2",
+    "image-size": "^0.9.3",
+    "postcss": "^8.2.8",
+    "prettier": "2.2.1",
+    "rehype": "^11.0.0",
+    "remark-frontmatter": "^3.0.0",
+    "remark-parse": "^9.0.0",
+    "remark-stringify": "^9.0.1",
+    "tailwindcss": "^2.0.3",
+    "unified": "^9.2.0",
+    "unist-util-visit": "^2.0.3"
+  }
+}
