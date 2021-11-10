@@ -25,7 +25,7 @@ export default function ProjectCard({
               <h4 className="text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100">
                 {title}&nbsp;&nbsp;
                 {badge && (
-                  <span className="inline-flex items-center justify-center px-3 py-1 mr-2 text-xs font-bold leading-none  bg-blue-300 rounded-full">
+                  <span className="inline-flex items-center justify-center px-3 py-1 mr-2 text-xs font-bold leading-none bg-gradient-to-r from-purple-400 to-pink-600 text-gray-100 rounded-full">
                     {badgeText}
                   </span>
                 )}
@@ -34,6 +34,7 @@ export default function ProjectCard({
             <p className="leading-5 text-gray-700 dark:text-gray-300">
               {description}
             </p>
+
             <div className="pt-2 flex md:flex-row space-x-2">
               {tags?.map((tag, idx) => (
                 <p
