@@ -25,7 +25,7 @@ export default function ProjectCard({
               <h4 className="text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100">
                 {title}&nbsp;&nbsp;
                 {badge && (
-                  <span className="inline-flex items-center justify-center px-3 py-1 mr-2 text-xs font-bold leading-none bg-gradient-to-r from-blue-400 to-purple-600 text-gray-100 rounded-full">
+                  <span className="inline-flex items-center justify-center px-3 py-1 mr-2 text-xs font-bold leading-none bg-gradient-to-r from-blue-400 to-indigo-500 text-gray-100 rounded-full">
                     {badgeText}
                   </span>
                 )}

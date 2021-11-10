@@ -61,7 +61,7 @@ export default function Container(props) {
         <button
           aria-label="Toggle Dark Mode"
           type="button"
-          className="rounded p-3 h-10 w-10 bg-gradient-to-r from-blue-400 to-purple-600"
+          className="rounded p-3 h-10 w-10 bg-gradient-to-r from-blue-400 to-indigo-500"
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         >
           {mounted && (
