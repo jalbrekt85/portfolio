@@ -1,11 +1,7 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
-import NextLink from "next/link";
 import { useTheme } from "next-themes";
-import Footer from "../components/Footer";
-import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
-import { FaStackOverflow } from "@react-icons/all-files/fa/FaStackOverflow";
 
 export default function Container(props) {
   const [mounted, setMounted] = useState(false);
@@ -105,7 +101,6 @@ export default function Container(props) {
         className="flex flex-col justify-center bg-white dark:bg-black px-8 text-gray-900 dark:text-gray-100"
       >
         {children}
-        <Footer />
       </main>
     </div>
   );

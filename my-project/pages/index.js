@@ -20,9 +20,10 @@ export default function Home() {
 
         <h2 className="text-gray-600 dark:text-gray-400 mb-4 mt-4 font-light tracking-wide leading-loose">
           I’m a Backend Web 3 Developer and advocate focused on building
-          decentralized applications. My experience ranges from building Yearn
-          style vaults and strategies to creating generative NFT sets and
-          Marketplaces. You'll find all my work here and on Github
+          decentralized applications. I work on a variety of DeFi and NFT
+          projects. You'll find some of my favorite projects below and the rest
+          of my work on Github. I am also active on Ethereum Stack Overflow and
+          Web 3 Discord communities
         </h2>
 
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
@@ -59,7 +60,7 @@ export default function Home() {
 
         <ProjectCard
           title="Curve + QuickSwap Flashloan Arbitrage"
-          description="Performs arbitrage between Curve and QuickSwap using the Flashloan Mix deployed on Polygon"
+          description="Performs arbitrage between Curve and QuickSwap using flashloans deployed on Polygon"
           href="https://github.com/jalbrekt85/Flashloan-Strategy"
           icon={<GiLightningHelix size="35" />}
           tags={["Brownie", "Python", "Flashloan", "Aave"]}
