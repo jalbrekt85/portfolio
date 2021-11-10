@@ -43,7 +43,7 @@ export default function Container(props) {
         <ul class="flex">
           <li class="mr-6">
             <a
-              class="text-blue-500 hover:text-blue-800"
+              className="text-md font-medium text-blue-400"
               href="https://github.com/jalbrekt85"
             >
               Github
@@ -51,7 +51,7 @@ export default function Container(props) {
           </li>
           <li class="mr-6">
             <a
-              class="text-blue-500 hover:text-blue-800"
+              className="text-md font-medium text-blue-400"
               href="https://ethereum.stackexchange.com/users/84713/jcalb"
             >
               Stack Exchange
@@ -61,7 +61,7 @@ export default function Container(props) {
         <button
           aria-label="Toggle Dark Mode"
           type="button"
-          className="bg-gray-200 dark:bg-gray-800 rounded p-3 h-10 w-10"
+          className="rounded p-3 h-10 w-10 bg-gradient-to-r from-blue-400 to-purple-600"
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         >
           {mounted && (
