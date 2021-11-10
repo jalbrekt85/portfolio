@@ -19,7 +19,7 @@ export default function Home() {
         </h1>
 
         <h2 className="text-gray-600 dark:text-gray-400 mb-4 mt-4 font-light tracking-wide leading-loose">
-          I’m a Backen Web 3 Developer and advocate focused on building
+          I’m a Backend Web 3 Developer and advocate focused on building
           decentralized applications. My experience ranges from building Yearn
           style vaults and strategies to creating generative NFT sets and
           Marketplaces. You'll find all my work here and on Github
