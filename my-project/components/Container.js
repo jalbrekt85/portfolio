@@ -3,8 +3,9 @@ import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
 import NextLink from "next/link";
 import { useTheme } from "next-themes";
-
 import Footer from "../components/Footer";
+import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
+import { FaStackOverflow } from "@react-icons/all-files/fa/FaStackOverflow";
 
 export default function Container(props) {
   const [mounted, setMounted] = useState(false);
@@ -43,10 +44,29 @@ export default function Container(props) {
           <meta property="article:published_time" content={meta.date} />
         )}
       </Head>
-      <nav className="sticky-nav flex justify-between items-center max-w-4xl w-full p-8 my-0 md:my-8 mx-auto bg-white dark:bg-black bg-opacity-60">
+      <nav className="sticky-nav flex justify-between items-left max-w-4xl w-full p-3 my-0 md:my-6 mx-auto bg-white dark:bg-black bg-opacity-60">
         <a href="#skip" className="sr-only focus:not-sr-only">
           Skip to content
         </a>
+
+        <ul class="flex">
+          <li class="mr-6">
+            <a
+              class="text-blue-500 hover:text-blue-800"
+              href="https://github.com/jalbrekt85"
+            >
+              Github
+            </a>
+          </li>
+          <li class="mr-6">
+            <a
+              class="text-blue-500 hover:text-blue-800"
+              href="https://ethereum.stackexchange.com/users/84713/jcalb"
+            >
+              Stack Exchange
+            </a>
+          </li>
+        </ul>
         <button
           aria-label="Toggle Dark Mode"
           type="button"
@@ -79,30 +99,6 @@ export default function Container(props) {
             </svg>
           )}
         </button>
-        <div>
-          <NextLink href="/">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Home</a>
-          </NextLink>
-          <NextLink href="/blog">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Blog</a>
-          </NextLink>
-
-          <NextLink href="/dashboard">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">
-              Dashboard
-            </a>
-          </NextLink>
-          <NextLink href="/snippets">
-            <a className="p-1 sm:p-4 hidden md:inline text-gray-900 dark:text-gray-100">
-              Snippets
-            </a>
-          </NextLink>
-          <NextLink href="/projects">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">
-              Projects
-            </a>
-          </NextLink>
-        </div>
       </nav>
       <main
         id="skip"

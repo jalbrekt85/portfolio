@@ -31,7 +31,7 @@ export default function Home() {
         <ProjectCard
           title="GPT-Loot"
           description="100% on-chain text based NFT generation using GPT-3 with Chainlink. Generate an NFT set from any theme, auto-deploy the contract and trade with others"
-          href="https://gptloot.com/"
+          href="https://gptloot.com"
           icon={<GiArtificialIntelligence size="35" />}
           tags={[
             "Brownie",
