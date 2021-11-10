@@ -47,6 +47,7 @@ export default function Home() {
           color="blue-500"
           badgeText="Chainlink Sponser Prize Winner @ ETH-Global"
         />
+
         <ProjectCard
           title="Arbitrum Yield Farming Strategy"
           description="Yield Farming Strategy that Farms tokens on Curve's TriCrypto Pool deployed on Arbitrum using Badger Finance's Strategy Architecture"

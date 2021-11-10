@@ -1,7 +1,7 @@
 const { spacing, fontFamily } = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  mode: "jit",
+  // mode: "jit",
   purge: ["./pages/**/*.js", "./components/**/*.js", "./layouts/**/*.js"],
   darkMode: "class",
   theme: {
@@ -17,7 +17,7 @@ module.exports = {
           css: {
             color: theme("colors.gray.700"),
             a: {
-              color: theme("colors.blue.500"),
+              color: theme("colors.blue.400"),
               "&:hover": {
                 color: theme("colors.blue.700"),
               },
