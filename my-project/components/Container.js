@@ -57,6 +57,14 @@ export default function Container(props) {
               Stack Exchange
             </a>
           </li>
+          <li class="mr-6">
+            <a
+              className="text-md font-medium text-blue-400"
+              href="https://discordapp.com/users/4944/"
+            >
+              Discord
+            </a>
+          </li>
         </ul>
         <button
           aria-label="Toggle Dark Mode"
