@@ -65,6 +65,14 @@ export default function Container(props) {
               Discord
             </a>
           </li>
+          <li class="mr-6">
+            <a
+              className="text-md font-medium text-blue-400"
+              href="mailto:jcalbrecht85@gmail.com"
+            >
+              Contact
+            </a>
+          </li>
         </ul>
         <button
           aria-label="Toggle Dark Mode"
