@@ -11,7 +11,7 @@ const Hero = () => {
         I’m a Web 3 developer and advocate focused on building decentralized
         applications. I work on a variety of DeFi and NFT projects. You'll find
         some of my favorite projects below and the rest of my work on Github. I
-        am also active on Ethereum Stack Overflow and Web 3 Discord communities
+        am also active on Gitcoin and Web 3 Discord communities
       </h2>
     </>
   );
